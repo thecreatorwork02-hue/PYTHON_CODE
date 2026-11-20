@@ -1,0 +1,6 @@
+a = input("Enter name of your character: ")
+b = input("Enter the action you want your character to do: ")
+c = input("Enter the time of day: ")
+d = input("Enter the location: ")
+e = input("Enter the mood of the scene: ")
+print(f"A cinematic 90s cel-shaded anime scene of a {a} {b} under a beautiful {c} sky, in {d} with a {e} atmosphere.")

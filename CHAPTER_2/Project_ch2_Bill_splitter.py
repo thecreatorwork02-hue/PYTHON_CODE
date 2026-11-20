@@ -1,0 +1,7 @@
+a = input("Enter amount of bill: ")
+b = input("Enter number of people: ")
+c = input("Enter tip percentage: ")
+d = int(a)*(int(c)/100)
+e = int(a) + int(d)
+f = int(e)/int(b)
+print("the bill per person is: " + str(f))

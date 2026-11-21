@@ -5,6 +5,9 @@ w = a[0:5] #Slicing
 x = a[0:9:2] #Slicing with step
 print(w)
 print(x)
+
+
+
 # String Functions
 print(len(a)) #Length of string
 print(a.upper()) #Convert to uppercase
@@ -15,6 +18,8 @@ print(a.find("n")) #Find index of character
 print(a.count("u")) #Count occurrences of character
 print(a.capitalize()) #Capitalize first letter
 print(a.count("a")) #Count occurrences of character
+print(a.endswith("hu")) #   Check if string ends with substring
+print(a.startswith("Di")) #   Check if string starts with substring
 
 
 #Escape Characters
@@ -23,3 +28,9 @@ print("Hello\tWorld") #Tab
 print("Hello\\World") #Backslash
 print("Hello\"World\"") #Double quote
 print("Hello\'World\'") #Single quote
+
+
+#f strings
+n = str(input("Enter your name: "))
+age = int(input("Enter your age: "))
+print(f"Hello, my name is {n} and I am {age} years old.")

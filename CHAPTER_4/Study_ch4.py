@@ -1,6 +1,7 @@
 list = [1, 2, 3, 4, 5,6] #List
 list[2:4] #Slicing
 list[0:6:2] #Slicing with step
+list[2] = 10 #Modifying an element
 print(list[2:4])
 print(list[0:6:2])
 # List Functions

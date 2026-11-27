@@ -1,4 +1,5 @@
-list = [1, 2, 3, 4, 5,6] #List
+list = [1, 2, 3, 4, 5,6] #List 
+#List is mutable, ordered collection of elements. It can contain elements of different data types.
 list[2:4] #Slicing
 list[0:6:2] #Slicing with step
 list[2] = 10 #Modifying an element
@@ -18,6 +19,8 @@ print(list.clear()) #Clear list
 
 # Tuple
 tuple = (1, 2, 3, 4, 5) #Tuple
+#Tuple is immutable, ordered collection of elements. It can contain elements of different data types.
+A = (1,) #Tuple with single element
 print(tuple[0:3]) #Slicing
 print(tuple[0:5:2]) #Slicing with step  
 # Tuple Functions
